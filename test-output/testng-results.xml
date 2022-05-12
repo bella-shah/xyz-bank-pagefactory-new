@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+    <line>
+      <![CDATA[Click on 'Bank Manager Login' Button<br>]]>
+    </line>
+    <line>
+      <![CDATA[Click on 'Add Customer' Button<br>]]>
+    </line>
+    <line>
+      <![CDATA[Enter First Name Bella to First Name field <br>]]>
+    </line>
+    <line>
+      <![CDATA[Enter Last Name Shah to Last Name field <br>]]>
+    </line>
+    <line>
+      <![CDATA[Enter Postcode HA0 4BY to Postcode field <br>]]>
+    </line>
+    <line>
+      <![CDATA[Click on 'Add Customer' Button<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get Customer added successfully text : Customer added successfully<br>]]>
+    </line>
+    <line>
+      <![CDATA[Click on 'Bank Manager Login' Button<br>]]>
+    </line>
+    <line>
+      <![CDATA[Click on 'Open Account' Button<br>]]>
+    </line>
+    <line>
+      <![CDATA[Select Customer Just Added 'Ron Weasly'<br>]]>
+    </line>
+    <line>
+      <![CDATA[Select Currency 'Pound'<br>]]>
+    </line>
+    <line>
+      <![CDATA[Click on 'Process' Button<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get Account created successfully text : Account created successfully<br>]]>
+    </line>
+    <line>
+      <![CDATA[Click on 'Customer Login' Button<br>]]>
+    </line>
+    <line>
+      <![CDATA[Select name from drop down 'Ron Weasly'<br>]]>
+    </line>
+    <line>
+      <![CDATA[Click on 'Login' Button<br>]]>
+    </line>
+    <line>
+      <![CDATA[Find Logout Button : logout<br>]]>
+    </line>
+    <line>
+      <![CDATA[Click on 'Logout' Button<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get Your Name text : Your Name<br>]]>
+    </line>
+    <line>
+      <![CDATA[Click on 'Customer Login' Button<br>]]>
+    </line>
+    <line>
+      <![CDATA[Select name from drop down 'Ron Weasly'<br>]]>
+    </line>
+    <line>
+      <![CDATA[Click on 'Login' Button<br>]]>
+    </line>
+    <line>
+      <![CDATA[Click on 'Deposit' Button<br>]]>
+    </line>
+    <line>
+      <![CDATA[Enter Deposit Amount 100 to Deposit Amount field <br>]]>
+    </line>
+    <line>
+      <![CDATA[Click on 'Deposit' Button<br>]]>
+    </line>
+    <line>
+      <![CDATA[Find Deposit Successful Message : Deposit Successful<br>]]>
+    </line>
+    <line>
+      <![CDATA[Click on 'Customer Login' Button<br>]]>
+    </line>
+    <line>
+      <![CDATA[Select name from drop down 'Ron Weasly'<br>]]>
+    </line>
+    <line>
+      <![CDATA[Click on 'Login' Button<br>]]>
+    </line>
+    <line>
+      <![CDATA[Click on 'Deposit' Button<br>]]>
+    </line>
+    <line>
+      <![CDATA[Enter Deposit Amount 100 to Deposit Amount field <br>]]>
+    </line>
+    <line>
+      <![CDATA[Click on 'Deposit' Button<br>]]>
+    </line>
+    <line>
+      <![CDATA[Click on 'Withdrawal' Button<br>]]>
+    </line>
+    <line>
+      <![CDATA[Enter Withdrawal Amount 50 to Withdrawal Amount field <br>]]>
+    </line>
+    <line>
+      <![CDATA[Click on 'Withdrawal' Button<br>]]>
+    </line>
+    <line>
+      <![CDATA[Find Withdrawal Successful Message : Transaction successful<br>]]>
+    </line>
+  </reporter-output>
+  <suite name="Regression Suite" duration-ms="28800" started-at="2022-05-12T22:04:05 BST" finished-at="2022-05-12T22:04:34 BST">
+    <groups>
+      <group name="regression">
+        <method signature="BankTest.bankManagerShouldAddCustomerSuccessfully()[pri:1, instance:com.bank.testsuite.BankTest@396e2f39]" name="bankManagerShouldAddCustomerSuccessfully" class="com.bank.testsuite.BankTest"/>
+        <method signature="BankTest.bankManagerShouldOpenAccountSuccessfully()[pri:2, instance:com.bank.testsuite.BankTest@396e2f39]" name="bankManagerShouldOpenAccountSuccessfully" class="com.bank.testsuite.BankTest"/>
+        <method signature="BankTest.customerShouldLoginAndLogoutSuccessfully()[pri:3, instance:com.bank.testsuite.BankTest@396e2f39]" name="customerShouldLoginAndLogoutSuccessfully" class="com.bank.testsuite.BankTest"/>
+        <method signature="BankTest.customerShouldDepositMoneySuccessfully()[pri:4, instance:com.bank.testsuite.BankTest@396e2f39]" name="customerShouldDepositMoneySuccessfully" class="com.bank.testsuite.BankTest"/>
+        <method signature="BankTest.customerShouldWithdrawMoneySuccessfully()[pri:5, instance:com.bank.testsuite.BankTest@396e2f39]" name="customerShouldWithdrawMoneySuccessfully" class="com.bank.testsuite.BankTest"/>
+      </group> <!-- regression -->
+      <group name="smoke">
+        <method signature="BankTest.bankManagerShouldOpenAccountSuccessfully()[pri:2, instance:com.bank.testsuite.BankTest@396e2f39]" name="bankManagerShouldOpenAccountSuccessfully" class="com.bank.testsuite.BankTest"/>
+        <method signature="BankTest.customerShouldLoginAndLogoutSuccessfully()[pri:3, instance:com.bank.testsuite.BankTest@396e2f39]" name="customerShouldLoginAndLogoutSuccessfully" class="com.bank.testsuite.BankTest"/>
+        <method signature="BankTest.customerShouldDepositMoneySuccessfully()[pri:4, instance:com.bank.testsuite.BankTest@396e2f39]" name="customerShouldDepositMoneySuccessfully" class="com.bank.testsuite.BankTest"/>
+      </group> <!-- smoke -->
+      <group name="sanity">
+        <method signature="BankTest.bankManagerShouldAddCustomerSuccessfully()[pri:1, instance:com.bank.testsuite.BankTest@396e2f39]" name="bankManagerShouldAddCustomerSuccessfully" class="com.bank.testsuite.BankTest"/>
+        <method signature="BankTest.bankManagerShouldOpenAccountSuccessfully()[pri:2, instance:com.bank.testsuite.BankTest@396e2f39]" name="bankManagerShouldOpenAccountSuccessfully" class="com.bank.testsuite.BankTest"/>
+      </group> <!-- sanity -->
+    </groups>
+    <test name="Regression" duration-ms="28800" started-at="2022-05-12T22:04:05 BST" finished-at="2022-05-12T22:04:34 BST">
+      <class name="com.bank.testsuite.BankTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.bank.testsuite.BankTest@396e2f39]" name="setUp" is-config="true" duration-ms="4091" started-at="2022-05-12T22:04:06 BST" finished-at="2022-05-12T22:04:10 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="inIt()[pri:0, instance:com.bank.testsuite.BankTest@396e2f39]" name="inIt" is-config="true" duration-ms="23" started-at="2022-05-12T22:04:10 BST" finished-at="2022-05-12T22:04:10 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inIt -->
+        <test-method status="PASS" signature="bankManagerShouldAddCustomerSuccessfully()[pri:1, instance:com.bank.testsuite.BankTest@396e2f39]" name="bankManagerShouldAddCustomerSuccessfully" duration-ms="1475" started-at="2022-05-12T22:04:10 BST" finished-at="2022-05-12T22:04:11 BST">
+          <reporter-output>
+            <line>
+              <![CDATA[Click on 'Bank Manager Login' Button<br>]]>
+            </line>
+            <line>
+              <![CDATA[Click on 'Add Customer' Button<br>]]>
+            </line>
+            <line>
+              <![CDATA[Enter First Name Bella to First Name field <br>]]>
+            </line>
+            <line>
+              <![CDATA[Enter Last Name Shah to Last Name field <br>]]>
+            </line>
+            <line>
+              <![CDATA[Enter Postcode HA0 4BY to Postcode field <br>]]>
+            </line>
+            <line>
+              <![CDATA[Click on 'Add Customer' Button<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get Customer added successfully text : Customer added successfully<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- bankManagerShouldAddCustomerSuccessfully -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.bank.testsuite.BankTest@396e2f39]" name="tearDown" is-config="true" duration-ms="703" started-at="2022-05-12T22:04:11 BST" finished-at="2022-05-12T22:04:12 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.bank.testsuite.BankTest@396e2f39]" name="setUp" is-config="true" duration-ms="2869" started-at="2022-05-12T22:04:12 BST" finished-at="2022-05-12T22:04:15 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="inIt()[pri:0, instance:com.bank.testsuite.BankTest@396e2f39]" name="inIt" is-config="true" duration-ms="3" started-at="2022-05-12T22:04:15 BST" finished-at="2022-05-12T22:04:15 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inIt -->
+        <test-method status="PASS" signature="bankManagerShouldOpenAccountSuccessfully()[pri:2, instance:com.bank.testsuite.BankTest@396e2f39]" name="bankManagerShouldOpenAccountSuccessfully" duration-ms="1367" started-at="2022-05-12T22:04:15 BST" finished-at="2022-05-12T22:04:16 BST">
+          <reporter-output>
+            <line>
+              <![CDATA[Click on 'Bank Manager Login' Button<br>]]>
+            </line>
+            <line>
+              <![CDATA[Click on 'Open Account' Button<br>]]>
+            </line>
+            <line>
+              <![CDATA[Select Customer Just Added 'Ron Weasly'<br>]]>
+            </line>
+            <line>
+              <![CDATA[Select Currency 'Pound'<br>]]>
+            </line>
+            <line>
+              <![CDATA[Click on 'Process' Button<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get Account created successfully text : Account created successfully<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- bankManagerShouldOpenAccountSuccessfully -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.bank.testsuite.BankTest@396e2f39]" name="tearDown" is-config="true" duration-ms="687" started-at="2022-05-12T22:04:16 BST" finished-at="2022-05-12T22:04:17 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.bank.testsuite.BankTest@396e2f39]" name="setUp" is-config="true" duration-ms="2756" started-at="2022-05-12T22:04:17 BST" finished-at="2022-05-12T22:04:20 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="inIt()[pri:0, instance:com.bank.testsuite.BankTest@396e2f39]" name="inIt" is-config="true" duration-ms="5" started-at="2022-05-12T22:04:20 BST" finished-at="2022-05-12T22:04:20 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inIt -->
+        <test-method status="PASS" signature="customerShouldLoginAndLogoutSuccessfully()[pri:3, instance:com.bank.testsuite.BankTest@396e2f39]" name="customerShouldLoginAndLogoutSuccessfully" duration-ms="1265" started-at="2022-05-12T22:04:20 BST" finished-at="2022-05-12T22:04:21 BST">
+          <reporter-output>
+            <line>
+              <![CDATA[Click on 'Customer Login' Button<br>]]>
+            </line>
+            <line>
+              <![CDATA[Select name from drop down 'Ron Weasly'<br>]]>
+            </line>
+            <line>
+              <![CDATA[Click on 'Login' Button<br>]]>
+            </line>
+            <line>
+              <![CDATA[Find Logout Button : logout<br>]]>
+            </line>
+            <line>
+              <![CDATA[Click on 'Logout' Button<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get Your Name text : Your Name<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- customerShouldLoginAndLogoutSuccessfully -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.bank.testsuite.BankTest@396e2f39]" name="tearDown" is-config="true" duration-ms="671" started-at="2022-05-12T22:04:21 BST" finished-at="2022-05-12T22:04:22 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.bank.testsuite.BankTest@396e2f39]" name="setUp" is-config="true" duration-ms="2934" started-at="2022-05-12T22:04:22 BST" finished-at="2022-05-12T22:04:24 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="inIt()[pri:0, instance:com.bank.testsuite.BankTest@396e2f39]" name="inIt" is-config="true" duration-ms="2" started-at="2022-05-12T22:04:24 BST" finished-at="2022-05-12T22:04:24 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inIt -->
+        <test-method status="PASS" signature="customerShouldDepositMoneySuccessfully()[pri:4, instance:com.bank.testsuite.BankTest@396e2f39]" name="customerShouldDepositMoneySuccessfully" duration-ms="1598" started-at="2022-05-12T22:04:24 BST" finished-at="2022-05-12T22:04:26 BST">
+          <reporter-output>
+            <line>
+              <![CDATA[Click on 'Customer Login' Button<br>]]>
+            </line>
+            <line>
+              <![CDATA[Select name from drop down 'Ron Weasly'<br>]]>
+            </line>
+            <line>
+              <![CDATA[Click on 'Login' Button<br>]]>
+            </line>
+            <line>
+              <![CDATA[Click on 'Deposit' Button<br>]]>
+            </line>
+            <line>
+              <![CDATA[Enter Deposit Amount 100 to Deposit Amount field <br>]]>
+            </line>
+            <line>
+              <![CDATA[Click on 'Deposit' Button<br>]]>
+            </line>
+            <line>
+              <![CDATA[Find Deposit Successful Message : Deposit Successful<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- customerShouldDepositMoneySuccessfully -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.bank.testsuite.BankTest@396e2f39]" name="tearDown" is-config="true" duration-ms="669" started-at="2022-05-12T22:04:26 BST" finished-at="2022-05-12T22:04:27 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.bank.testsuite.BankTest@396e2f39]" name="setUp" is-config="true" duration-ms="2809" started-at="2022-05-12T22:04:27 BST" finished-at="2022-05-12T22:04:30 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="inIt()[pri:0, instance:com.bank.testsuite.BankTest@396e2f39]" name="inIt" is-config="true" duration-ms="1" started-at="2022-05-12T22:04:30 BST" finished-at="2022-05-12T22:04:30 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inIt -->
+        <test-method status="PASS" signature="customerShouldWithdrawMoneySuccessfully()[pri:5, instance:com.bank.testsuite.BankTest@396e2f39]" name="customerShouldWithdrawMoneySuccessfully" duration-ms="3902" started-at="2022-05-12T22:04:30 BST" finished-at="2022-05-12T22:04:33 BST">
+          <reporter-output>
+            <line>
+              <![CDATA[Click on 'Customer Login' Button<br>]]>
+            </line>
+            <line>
+              <![CDATA[Select name from drop down 'Ron Weasly'<br>]]>
+            </line>
+            <line>
+              <![CDATA[Click on 'Login' Button<br>]]>
+            </line>
+            <line>
+              <![CDATA[Click on 'Deposit' Button<br>]]>
+            </line>
+            <line>
+              <![CDATA[Enter Deposit Amount 100 to Deposit Amount field <br>]]>
+            </line>
+            <line>
+              <![CDATA[Click on 'Deposit' Button<br>]]>
+            </line>
+            <line>
+              <![CDATA[Click on 'Withdrawal' Button<br>]]>
+            </line>
+            <line>
+              <![CDATA[Enter Withdrawal Amount 50 to Withdrawal Amount field <br>]]>
+            </line>
+            <line>
+              <![CDATA[Click on 'Withdrawal' Button<br>]]>
+            </line>
+            <line>
+              <![CDATA[Find Withdrawal Successful Message : Transaction successful<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- customerShouldWithdrawMoneySuccessfully -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.bank.testsuite.BankTest@396e2f39]" name="tearDown" is-config="true" duration-ms="684" started-at="2022-05-12T22:04:33 BST" finished-at="2022-05-12T22:04:34 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.bank.testsuite.BankTest -->
+    </test> <!-- Regression -->
+  </suite> <!-- Regression Suite -->
+</testng-results>
